@@ -114,3 +114,4 @@ xyplot(stepday.wk$steps ~ stepday.wk$interval|stepday.wk$wk
 ```
 
 Results of comparison of weekday to weekend: Weekday steps were much higher in the early 5 minute intervals suggesting exercise prior to work; they were low during work hour intervals and increased slightly in the evening intervals.  Weekend intervals remained active during day time with less variablity then weekdays, which suggested the greater freedom of time during the weekend. 
+

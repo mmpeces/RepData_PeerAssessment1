@@ -161,3 +161,160 @@ xyplot(stepday.wk$steps ~ stepday.wk$interval|stepday.wk$wk
 ![](./PA1_template_files/figure-html/unnamed-chunk-12-1.png) 
 
 Results of comparison of weekday to weekend: Weekday steps were much higher in the early 5 minute intervals suggesting exercise prior to work; they were low during work hour intervals and increased slightly in the evening intervals.  Weekend intervals remained active during day time with less variablity then weekdays, which suggested the greater freedom of time during the weekend. 
+
+
+```r
+library(knitr)
+```
+
+```
+## Warning: package 'knitr' was built under R version 3.1.2
+```
+
+```r
+knit2html("PA1_template.Rmd")
+```
+
+```
+## 
+## 
+## processing file: PA1_template.Rmd
+```
+
+```
+## 
+  |                                                                       
+  |                                                                 |   0%
+  |                                                                       
+  |..                                                               |   4%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |.....                                                            |   8%
+## label: unnamed-chunk-14
+## 
+  |                                                                       
+  |........                                                         |  12%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |..........                                                       |  15%
+## label: unnamed-chunk-15
+## 
+  |                                                                       
+  |............                                                     |  19%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |...............                                                  |  23%
+## label: unnamed-chunk-16
+```
+
+```
+## 
+  |                                                                       
+  |..................                                               |  27%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |....................                                             |  31%
+## label: unnamed-chunk-17
+## 
+  |                                                                       
+  |......................                                           |  35%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |.........................                                        |  38%
+## label: unnamed-chunk-18
+## 
+  |                                                                       
+  |............................                                     |  42%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |..............................                                   |  46%
+## label: unnamed-chunk-19
+```
+
+```
+## 
+  |                                                                       
+  |................................                                 |  50%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |...................................                              |  54%
+## label: unnamed-chunk-20
+## 
+  |                                                                       
+  |......................................                           |  58%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |........................................                         |  62%
+## label: unnamed-chunk-21
+## 
+  |                                                                       
+  |..........................................                       |  65%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |.............................................                    |  69%
+## label: unnamed-chunk-22
+## 
+  |                                                                       
+  |................................................                 |  73%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |..................................................               |  77%
+## label: unnamed-chunk-23
+```
+
+```
+## 
+  |                                                                       
+  |....................................................             |  81%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |.......................................................          |  85%
+## label: unnamed-chunk-24
+## 
+  |                                                                       
+  |..........................................................       |  88%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |............................................................     |  92%
+## label: unnamed-chunk-25
+```
+
+```
+## 
+  |                                                                       
+  |..............................................................   |  96%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |.................................................................| 100%
+## label: unnamed-chunk-26
+```
+
+```
+## output file: PA1_template.md
+```

@@ -129,6 +129,132 @@ xyplot(stepday.wk$steps ~ stepday.wk$interval|stepday.wk$wk
        ,layout=c(1,2), type=&quot;l&quot;)</code></pre>
 <p><img src="data:image/png;base64,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" /></p>
 <p>Results of comparison of weekday to weekend: Weekday steps were much higher in the early 5 minute intervals suggesting exercise prior to work; they were low during work hour intervals and increased slightly in the evening intervals. Weekend intervals remained active during day time with less variablity then weekdays, which suggested the greater freedom of time during the weekend.</p>
+<pre class="r"><code>library(knitr)</code></pre>
+<pre><code>## Warning: package 'knitr' was built under R version 3.1.2</code></pre>
+<pre class="r"><code>knit2html(&quot;PA1_template.Rmd&quot;)</code></pre>
+<pre><code>## 
+## 
+## processing file: PA1_template.Rmd</code></pre>
+<pre><code>## 
+  |                                                                       
+  |                                                                 |   0%
+  |                                                                       
+  |..                                                               |   4%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |.....                                                            |   8%
+## label: unnamed-chunk-14
+## 
+  |                                                                       
+  |........                                                         |  12%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |..........                                                       |  15%
+## label: unnamed-chunk-15
+## 
+  |                                                                       
+  |............                                                     |  19%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |...............                                                  |  23%
+## label: unnamed-chunk-16</code></pre>
+<pre><code>## 
+  |                                                                       
+  |..................                                               |  27%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |....................                                             |  31%
+## label: unnamed-chunk-17
+## 
+  |                                                                       
+  |......................                                           |  35%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |.........................                                        |  38%
+## label: unnamed-chunk-18
+## 
+  |                                                                       
+  |............................                                     |  42%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |..............................                                   |  46%
+## label: unnamed-chunk-19</code></pre>
+<pre><code>## 
+  |                                                                       
+  |................................                                 |  50%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |...................................                              |  54%
+## label: unnamed-chunk-20
+## 
+  |                                                                       
+  |......................................                           |  58%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |........................................                         |  62%
+## label: unnamed-chunk-21
+## 
+  |                                                                       
+  |..........................................                       |  65%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |.............................................                    |  69%
+## label: unnamed-chunk-22
+## 
+  |                                                                       
+  |................................................                 |  73%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |..................................................               |  77%
+## label: unnamed-chunk-23</code></pre>
+<pre><code>## 
+  |                                                                       
+  |....................................................             |  81%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |.......................................................          |  85%
+## label: unnamed-chunk-24
+## 
+  |                                                                       
+  |..........................................................       |  88%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |............................................................     |  92%
+## label: unnamed-chunk-25</code></pre>
+<pre><code>## 
+  |                                                                       
+  |..............................................................   |  96%
+##   ordinary text without R code
+## 
+## 
+  |                                                                       
+  |.................................................................| 100%
+## label: unnamed-chunk-26</code></pre>
+<pre><code>## output file: PA1_template.md</code></pre>
 </div>
 
 
